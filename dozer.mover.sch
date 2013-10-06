@@ -1957,7 +1957,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="U$1" library="RaspberryPi" deviceset="RASPBERRY-PI" device=""/>
+<part name="J1" library="RaspberryPi" deviceset="RASPBERRY-PI" device="" value=""/>
 <part name="IC1" library="microchip" deviceset="PIC18F4*_40" device="" technology="550"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="PTH"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-MB-H"/>
@@ -1973,7 +1973,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="38.1" y="22.86"/>
+<instance part="J1" gate="G$1" x="38.1" y="22.86"/>
 <instance part="IC1" gate="G$1" x="187.96" y="53.34"/>
 <instance part="Y1" gate="G$1" x="185.42" y="114.3" rot="R90"/>
 <instance part="JP1" gate="G$1" x="147.32" y="116.84" rot="R180"/>
@@ -2057,7 +2057,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="193.04" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="6-GND"/>
+<pinref part="J1" gate="G$1" pin="6-GND"/>
 <wire x1="66.04" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="63.5" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
 <label x="66.04" y="63.5" size="1.778" layer="95"/>
@@ -2083,7 +2083,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="5VDC" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="2-+5V"/>
+<pinref part="J1" gate="G$1" pin="2-+5V"/>
 <wire x1="66.04" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="73.66" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
 <label x="66.04" y="73.66" size="1.778" layer="95"/>
@@ -2473,7 +2473,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="UARTTX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="8-TX"/>
+<pinref part="J1" gate="G$1" pin="8-TX"/>
 <wire x1="66.04" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="58.42" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
 <label x="66.04" y="58.42" size="1.778" layer="95"/>
@@ -2487,7 +2487,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="UARTRX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="10-RX"/>
+<pinref part="J1" gate="G$1" pin="10-RX"/>
 <wire x1="66.04" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="53.34" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <label x="66.04" y="53.34" size="1.778" layer="95"/>
