@@ -1,1 +1,12 @@
 main
+	HID_Enable
+		GetMaxStrignDscIndex
+			GetMaxIndexInDevDsc
+			GetMaxIndexInConfigDsc
+		USB_Device_Init_Int
+			USB_Init_Desc
+			USB_Configure
+			memset_usb_int
+		USB_Attach_Device
+			USB_Configure
+			USB_Enable_Interrupts
